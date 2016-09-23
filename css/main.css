@@ -8,78 +8,67 @@ body {
 }
 
 h1 {
-	color: #5abf8d;
-	margin: 0;
-	text-align: left;
-	font-weight: 300;
+  color: #5abf8d;
+  margin: 0;
+  text-align: left;
+  font-weight: 300;
 }
 
 h2 {
-	text-align: left;
-	font-weight: 700;
+  text-align: left;
+  font-weight: 700;
 }
 
 p {
-	font-weight: 300;
-	margin: 0;
+  font-weight: 300;
+  margin: 0;
 }
 
 .smaller {
-	width: 70px;
+  width: 50px;
 }
 
 .border-bottom  {
-	    border-bottom: 1px solid #5abf8d;
+  border-bottom: 1px solid #5abf8d;
 }
 
 a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 25em) {
 
-	html {
-	  margin: 0 4rem;
-	}
-	.icons-smallmiddle{
-		margin: 0 3em;
-	}
-	.text-left, .text-right {
-		text-align: center;
-	}
-	.smaller {
-		width: 100%;
-	}
+  html {
+    margin: 0 4rem;
+  }
+  .icons-smallmiddle{
+  	margin: 0 3em;
+  }
+  .text-left, .text-right {
+  	text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
-
-	html {
-	  margin: 0 3rem;
-	}
-	.smaller {
-		width: 70px;
-	}
-}
+  html {
+    margin: 0 3rem;
+  }
+  }
 
 
 
 @media only screen and (min-width: 60em) {
-
-	html {
-	  margin: 0 20%;
-	}
-	h1 {
-		font-size: 3.2807rem;
-	}
-}
+  html {
+    margin: 0 20%;
+  }
+  h1 {
+  	font-size: 3.2807rem;
+  }
+  }
 
 @media only screen and (min-width: 80em) {
-	.smaller{
-		width: 10%;
-	}
-	html {
-	  margin: 0 25%;
-	}
+  html {
+    margin: 0 25%;
+  }
 }
