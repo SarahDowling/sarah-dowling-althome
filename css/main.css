@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1rem 0;
 }
 
 h1 {
@@ -68,7 +68,7 @@ a {
 @media only screen and (min-width: 60em) {
 
 	html {
-	  margin: 0 20;
+	  margin: 0 20%;
 	}
 	h1 {
 		font-size: 3.2807rem;
@@ -80,6 +80,6 @@ a {
 		width: 10%;
 	}
 	html {
-	  margin: 0 30%;
+	  margin: 0 25%;
 	}
 }
