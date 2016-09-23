@@ -1,22 +1,6 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font-family: "Futura PT", sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
 }
 
 body {
@@ -24,37 +8,78 @@ body {
 }
 
 h1 {
-	font-size: 6.6rem;
-	text-align: center;
 	color: #5abf8d;
+	margin: 0;
+	text-align: left;
+	font-weight: 300;
+}
+
+h2 {
+	text-align: left;
+	font-weight: 700;
+}
+
+p {
+	font-weight: 300;
 	margin: 0;
 }
 
+.smaller {
+	width: 70px;
+}
 
+.border-bottom  {
+	    border-bottom: 1px solid #5abf8d;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
 
 @media only screen and (min-width: 25em) {
-	.DELETE {
-		DELETE
+
+	html {
+	  margin: 0 4rem;
+	}
+	.icons-smallmiddle{
+		margin: 0 3em;
+	}
+	.text-left, .text-right {
+		text-align: center;
+	}
+	.smaller {
+		width: 100%;
 	}
 }
 
 @media only screen and (min-width: 38em) {
-	.DELETE {
-		DELETE
+
+	html {
+	  margin: 0 3rem;
+	}
+	.smaller {
+		width: 70px;
 	}
 }
 
+
+
 @media only screen and (min-width: 60em) {
-	.DELETE {
-		DELETE
+
+	html {
+	  margin: 0 20;
+	}
+	h1 {
+		font-size: 3.2807rem;
 	}
 }
 
 @media only screen and (min-width: 80em) {
-	.DELETE {
-		DELETE
+	.smaller{
+		width: 10%;
+	}
+	html {
+	  margin: 0 30%;
 	}
 }
-
-Addition
-moe
